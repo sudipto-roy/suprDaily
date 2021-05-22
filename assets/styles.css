@@ -1,0 +1,92 @@
+:root {
+  --themePrime: #ffd075;
+  --themeSec: #ffe8b1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+.spreadHR {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRight {
+  margin-left: auto;
+}
+
+.heading {
+  height: 60px;
+  padding: 0 20px;
+}
+
+.list {
+  width: 200px;
+  border-radius: 6px;
+  margin: 8px;
+}
+
+.list header {
+  padding: 8px;
+  background: var(--themePrime);
+  border-radius: 6px 6px 0 0;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listBody {
+  padding: 8px;
+  border: 1px solid var(--themePrime);
+  border-radius: 0 0 6px 6px;
+}
+
+.listItem {
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid var(--themePrime);
+}
+
+.modalBG {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalWrap {
+  background: var(--themeSec);
+  padding: 12px;
+}

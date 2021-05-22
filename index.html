@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="heading spreadHR">
+      <h1>Trello Board</h1>
+      <div>
+        <button id="addList">Add List</button>
+      </div>
+    </header>
+    <div class="container" id="container">
+      <div class="list">
+        <header class="spreadHR">
+          <h2>List name</h2>
+          <div class="flexRight">
+            <button class="">+</button>
+            <button class="">X</button>
+          </div>
+        </header>
+        <div class="listBody">
+          <div class="listItem">
+            <h3 class="spreadHR">
+              list name
+              <button class="flexRight">X</button>
+            </h3>
+            <p>List description goes here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modalTarget"></div>
+    <script src="assets/utils.js"></script>
+    <script src="assets/templates.js"></script>
+    <script src="assets/components.js"></script>
+    <script src="assets/App.js"></script>
+    <script>
+      //   init
+      utils.refreshDom();
+    </script>
+  </body>
+</html>
